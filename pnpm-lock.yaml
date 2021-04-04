@@ -1,5 +1,6 @@
 devDependencies:
   '@sveltejs/adapter-node': 1.0.0-next.12
+  '@sveltejs/adapter-static': 1.0.0-next.4
   '@sveltejs/kit': 1.0.0-next.71_svelte@3.37.0+vite@2.1.5
   sass: 1.32.8
   svelte: 3.37.0
@@ -22,6 +23,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-DGP3dT5ijsTV0zmLDmZP8wI4RjZlifGGzA0y4HLoWNEKhZJLDjFDJnNcA+O5S9QBxQOVaYUlAY2z19r+skBVjA==
+  /@sveltejs/adapter-static/1.0.0-next.4:
+    dev: true
+    resolution:
+      integrity: sha512-Atri/5jyiVmAklqDKb/5czmLkHos6LQOag61k/C6qWozMb8UopvL3bTm62hFQXGKvGnuSRq2xIueDOKWHM/7rA==
   /@sveltejs/kit/1.0.0-next.71_svelte@3.37.0+vite@2.1.5:
     dependencies:
       '@sveltejs/vite-plugin-svelte': 1.0.0-next.5_svelte@3.37.0+vite@2.1.5
@@ -476,6 +481,7 @@ packages:
       integrity: sha512-tYU5iaYeUgQYvK/CNNz3tiJ8vYqPWfCE9IQ7K0iuzYovWw7lzty7KRYGWwV3CQPh0NKxWjOczAqiJsCL0Xb+Og==
 specifiers:
   '@sveltejs/adapter-node': next
+  '@sveltejs/adapter-static': next
   '@sveltejs/kit': next
   sass: ^1.0.0
   svelte: ^3.29.0
